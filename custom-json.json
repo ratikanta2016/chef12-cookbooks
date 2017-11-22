@@ -1,0 +1,15 @@
+{
+  "wordpress" : {
+    "db" : {
+      "host" : "",
+      "database" : "",
+      "user" : "root",
+      "password" : ""
+
+    },
+    "dir" : "/var/www"
+  }
+  "deploy" : {
+      "deploy_to" : "/var/www/nexthotelscom"
+    }
+}
