@@ -62,7 +62,7 @@ when 'debian'
   default[:apache][:binary]        = '/usr/sbin/apache2'
   default[:apache][:icondir]       = '/usr/share/apache2/icons/'
   default[:apache][:init_script]   = '/etc/init.d/apache2'
-  if platform?('ubuntu') && node[:platform_version] == '14.04'
+  if platform?('ubuntu') && node[:platform_version] == '16.04'
     default[:apache][:version]             = '2.4'
     default[:apache][:conf_available_dir]  = "#{node[:apache][:dir]}/conf-available"
     default[:apache][:conf_enabled_dir]    = "#{node[:apache][:dir]}/conf-enabled"
